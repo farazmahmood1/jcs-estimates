@@ -1,0 +1,43 @@
+.bg-theme {
+  background-color: #007bff;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.counter-card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.counter-card_icon img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.counter-card_number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.counter-card_text {
+  font-size: 1rem;
+  color: #000;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .bg-theme {
+    padding: 40px 0;
+  }
+
+  .counter-card {
+    margin-bottom: 20px;
+  }
+}

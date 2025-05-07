@@ -1,0 +1,241 @@
+/* Base styles */
+.th-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+  background: #f8f8f8;
+  padding: 10px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-links ul,
+.header-social a {
+  display: flex;
+  align-items: center;
+}
+
+.header-links ul li,
+.header-social a {
+  margin-right: 20px;
+}
+
+.header-links ul li i,
+.header-social a i {
+  margin-right: 5px;
+}
+
+.header-social {
+  display: flex;
+  align-items: center;
+}
+
+.header-social .social-title {
+  margin-right: 10px;
+}
+
+.header-social a {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.header-social a:hover {
+  color: #000;
+}
+
+.menu-area {
+  padding: 0px 0;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list li {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.menu-list li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu-list li a:hover {
+  color: #0004ff;
+}
+
+.header-button {
+  display: flex;
+  align-items: center;
+}
+
+.th-btn {
+  background-color: #fa6060; /* Set a consistent reddish color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px; /* Rounded edges for a modern, oval shape */
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.th-btn:hover {
+  transform: scale(1.25); /* Slight scale effect on hover */
+}
+
+.th-menu-toggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu ul li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.mobile-menu ul li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s;
+}
+
+.mobile-menu ul li a:hover {
+  color: #ff6f61;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+  .header-top {
+    display: flex !important;
+    flex-direction: column;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .header-top .header-social {
+    display: none;
+  }
+
+  .header-top.show {
+    width: 100% !important;
+    display: flex !important;
+    margin: 0px;
+  }
+
+  .header-top.show ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .header-top.show ul li {
+    flex: 1 1 45%; /* Each item takes ~45% of the width */
+    display: flex; /* Align icon and text in a row */
+    align-items: center;
+    margin: 0px;
+  }
+
+  .header-top.show ul li:nth-child(4) {
+    display: none;
+  }
+
+  .header-top.show ul li:last-child {
+    flex: 1 1 100%; /* Last item spans the full width */
+  }
+
+  .header-top.show ul li i {
+    margin-right: 8px; /* Add space between icon and text */
+  }
+
+  .header-top .container {
+    display: block;
+    text-align: center;
+  }
+
+  .header-links ul,
+  .header-social {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .menu-area .container {
+    display: block;
+    text-align: center;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+    text-align: center;
+  }
+
+  .mobile-menu ul li.active {
+    background-color: #0d6efd;
+  }
+  .mobile-menu ul li.active a {
+    color: #fff;
+  }
+}
+
+/* Animation and hover effects */
+.fa-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.header-social i,
+.menu-list a,
+.th-btn i {
+  transition: transform 0.3s;
+}
+
+.header-social a:hover i,
+.menu-list a:hover,
+.th-btn:hover i {
+  transform: scale(1.1);
+}
