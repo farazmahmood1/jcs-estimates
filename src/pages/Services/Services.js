@@ -28,12 +28,22 @@ const Services = () => {
   }, []);
 
   const services = [
-    { icon: "assets/img/icon/quantity.png", title: "Quantity Takeoff", description: "Ensures accurate cost estimation by measuring required goods and resources, critical for budgeting and effective project execution in construction." },
-    { icon: "assets/img/icon/materials.png", title: "Material Estimates", description: "Provides a comprehensive material list to ensure effective resource allocation and budgeting, aiding in efficient project execution." },
-    { icon: "assets/img/icon/budget.png", title: "Cost Estimates", description: "Our cost assessment serves as a financial blueprint, ensuring resources are used wisely and budgets stay on track." },
-    { icon: "assets/img/icon/proposal.png", title: "Bid Proposals", description: "Crafts a compelling bid proposal with clarity and precision, distinguishing your offer from competitors." },
-    { icon: "assets/img/icon/quotation.png", title: "RFQS", description: "Offering RFQS with our expertise, fulfilling unique requirements to secure preferred partner status." },
-    { icon: "assets/img/icon/blueprint.png", title: "Architectural Designing", description: "Combining functionality with aesthetics, our architectural designs transform ideas into inspiring, lasting structures." }
+    { icon: "assets/img/icon/construction.png", title: "Earthwork", description: "Comprehensive earthwork estimation services to support site preparation and foundational planning." },
+    { icon: "assets/img/icon/concrete-mixer.png", title: "Concrete", description: "Accurate concrete volume calculations ensuring optimal structural strength and cost efficiency." },
+    { icon: "assets/img/icon/house-frame.png", title: "Framing", description: "Detailed framing estimates for structural integrity and material optimization." },
+    { icon: "assets/img/icon/drywall.png", title: "Drywall", description: "Precise drywall material and labor estimates for efficient interior construction." },
+    { icon: "assets/img/icon/floor.png", title: "Flooring", description: "Estimates tailored to various flooring types for budget planning and design needs." },
+    { icon: "assets/img/icon/demolition.png", title: "Demolition", description: "Safe and cost-effective demolition estimates, accounting for labor and debris removal." },
+    { icon: "assets/img/icon/brickwall.png", title: "Masonry", description: "Expert masonry quantity takeoffs and cost projections for robust construction." },
+    { icon: "assets/img/icon/structural.png", title: "Structure Steel", description: "Accurate structural steel estimation ensuring stability and code compliance." },
+    { icon: "assets/img/icon/roof.png", title: "Roofing", description: "Detailed roofing estimates considering materials, labor, and weatherproofing." },
+    { icon: "assets/img/icon/painting.png", title: "Painting", description: "Painting estimates for interior and exterior finishes, enhancing durability and appeal." },
+    { icon: "assets/img/icon/landscaping.png", title: "Landscaping", description: "Landscaping estimates covering softscape, hardscape, and maintenance planning." },
+    { icon: "assets/img/icon/mep.png", title: "MEP", description: "Mechanical, Electrical, and Plumbing estimates for smooth building operations." },
+    { icon: "assets/img/icon/interior.png", title: "Interior Finishes Estimation", description: "Comprehensive estimates for all interior finish materials and design elements." },
+    { icon: "assets/img/icon/insulation.png", title: "Insulation", description: "Thermal and acoustic insulation estimates for comfort and energy efficiency." },
+    { icon: "assets/img/icon/finishes.png", title: "Finishes", description: "Estimates for final finishing works, including walls, ceilings, and detailing." },
+    { icon: "assets/img/icon/furnishing.png", title: "Furnishing", description: "Furnishing estimates to enhance functionality and aesthetics of interior spaces." }
   ];
   
 

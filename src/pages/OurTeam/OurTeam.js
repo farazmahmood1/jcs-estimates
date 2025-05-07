@@ -2,7 +2,7 @@ import React from 'react';
 import './OurTeam.css';
 
 const teamMembers = [
-  { id: '01', name: 'Muhammad Ahtsham Haider', role: 'Co-Founder', img: 'assets/img/team/Co-founder_-_Muhammad_Ahtsham_Azam.png' },
+  { id: '01', name: 'Muhammad Ahtsham Haider', role: 'Co-Founder', img: 'assets/img/team/aa.png' },
   { id: '02', name: 'Cody Martinez', role: 'Sales Manager', img: 'assets/img/team/Business_development_manager-Cody_Martinez.png' },
   { id: '03', name: 'Jia Brian', role: 'Marketing Head', img: 'assets/img/team/Marketing_head_-_Jia_Brian.png' },
   { id: '04', name: 'Anna Amelia', role: 'Operational Manager', img: 'assets/img/DTechKrew/Team/oprmngr.jpg' },
@@ -29,11 +29,11 @@ const OurTeam = () => {
         <div className="container">
           <div className="row gy-40 align-items-center">
             <div className="col-xl-5">
-              <div className="team-featured-img"><img src="assets/img/DTechKrew/Team/ceo.png" alt="Team" /></div>
+              <div className="team-featured-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
             </div>
             <div className="col-xl-7">
               <div className="team-featured">
-                <h2 className="team-title">Muhammad Awais Haider, Founder & CEO</h2>
+                <h2 className="team-title">John Doe, Founder & CEO</h2>
                 <p className="team-desig">CEO, of JCS</p>
                 <p className="team-bio">Welcome to jcs Estimates, your premier destination for expert cost estimation services. I'm delighted to introduce you to our team of seasoned professionals dedicated to delivering accurate, timely, and data-driven solutions. Leveraging cutting-edge technology and industry expertise, we optimize project budgets, mitigate risks, and drive success. Our commitment to excellence and client satisfaction drives everything we do. Explore our services and let's get started on your next project.</p>
                 <div className="team-contact-wrap">
@@ -46,7 +46,7 @@ const OurTeam = () => {
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-envelope" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@rachna.com">info@jcsestimate.com</a>
+                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@.com">info@jcsestimate.com</a>
                     </div>
                   </div>
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
@@ -64,25 +64,25 @@ const OurTeam = () => {
       <section className="space">
         <div className="container">
           <div className="title-area text-center"><span className="sub-title">
-            <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg" /></div>ALL MEMBERS
+            <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="\assets\img\DTechKrew\Team\mrkhd.jpg" /></div>ALL MEMBERS
           </span>
             <h2 className="sec-title">See Our Skilled Expert <span className="text-theme">Team</span></h2>
           </div>
           <div className="row gy-40">
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/DTechKrew/Team/ceo.png" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p1" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
                   </div>
-                  <h3 className="box-title"><a href="team-details.html">Awais Haider</a></h3><span className="team-desig">Founder &amp; CEO</span>
+                  <h3 className="box-title"><a href="team-details.html">John Doe Latinez</a></h3><span className="team-desig">Founder &amp; CEO</span>
                 </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_2.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p2" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
@@ -93,7 +93,7 @@ const OurTeam = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_3.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p3" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
@@ -104,7 +104,7 @@ const OurTeam = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_4.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p4" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
@@ -115,7 +115,7 @@ const OurTeam = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_5.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p5" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
@@ -126,7 +126,7 @@ const OurTeam = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_6.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p6" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
@@ -137,7 +137,7 @@ const OurTeam = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_7.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p7" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
@@ -148,7 +148,7 @@ const OurTeam = () => {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_8.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p8" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
