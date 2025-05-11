@@ -13,12 +13,12 @@ const services = [
   { icon: "assets/img/icon/structural.png", title: "Structure Steel", description: "Accurate structural steel estimation ensuring stability and code compliance." },
   { icon: "assets/img/icon/roof.png", title: "Roofing", description: "Detailed roofing estimates considering materials, labor, and weatherproofing." },
   { icon: "assets/img/icon/painting.png", title: "Painting", description: "Painting estimates for interior and exterior finishes, enhancing durability and appeal." },
-  { icon: "assets/img/icon/landscaping.png", title: "Landscaping", description: "Landscaping estimates covering softscape, hardscape, and maintenance planning." },
-  { icon: "assets/img/icon/mep.png", title: "MEP", description: "Mechanical, Electrical, and Plumbing estimates for smooth building operations." },
-  { icon: "assets/img/icon/interior.png", title: "Interior Finishes Estimation", description: "Comprehensive estimates for all interior finish materials and design elements." },
-  { icon: "assets/img/icon/insulation.png", title: "Insulation", description: "Thermal and acoustic insulation estimates for comfort and energy efficiency." },
-  { icon: "assets/img/icon/finishes.png", title: "Finishes", description: "Estimates for final finishing works, including walls, ceilings, and detailing." },
-  { icon: "assets/img/icon/furnishing.png", title: "Furnishing", description: "Furnishing estimates to enhance functionality and aesthetics of interior spaces." }
+  { icon: "assets/img/icon/park.png", title: "Landscaping", description: "Landscaping estimates covering softscape, hardscape, and maintenance planning." },
+  { icon: "assets/img/icon/system.png", title: "MEP", description: "Mechanical, Electrical, and Plumbing estimates for smooth building operations." },
+  { icon: "assets/img/icon/interior-design.png", title: "Interior Finishes Estimation", description: "Comprehensive estimates for all interior finish materials and design elements." },
+  { icon: "assets/img/icon/thermal-insulation.png", title: "Insulation", description: "Thermal and acoustic insulation estimates for comfort and energy efficiency." },
+  { icon: "assets/img/icon/cabinet.png", title: "Finishes", description: "Estimates for final finishing works, including walls, ceilings, and detailing." },
+  { icon: "assets/img/icon/manager.png", title: "Furnishing", description: "Furnishing estimates to enhance functionality and aesthetics of interior spaces." }
 ];
 
 const ServicesSection = () => {

@@ -38,12 +38,12 @@ const ContactUs = () => {
                 </div>
                 <div className="map-sec">
                     <div className='row'>
-                        <div className='col-lg-6 p-0'>
+                        <div className='col-lg-12 p-0'>
                             <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" src="https://maps.google.com/maps?width=400&height=400&hl=en&q=418 Broadway STE N Albany, NY 12207, USA&t=&z=14&ie=UTF8&iwloc=B&output=embed" /><a href="https://sprunkin.com/">Sprunki Game</a></div><style dangerouslySetInnerHTML={{ __html: ".mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}" }} /></div>
                         </div>
-                        <div className='col-lg-6 p-0'>
+                        {/* <div className='col-lg-6 p-0'>
                             <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" src="https://maps.google.com/maps?width=400&height=400&hl=en&q=AP KHAZNA TOWER BUILDING NAJDA STREET Abu Dhabi.UAE&t=&z=14&ie=UTF8&iwloc=B&output=embed" /><a href="https://sprunkin.com/">Sprunki Game</a></div><style dangerouslySetInnerHTML={{ __html: ".mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}" }} /></div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
