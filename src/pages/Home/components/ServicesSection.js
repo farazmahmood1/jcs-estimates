@@ -26,11 +26,11 @@ const ServicesSection = () => {
     <section className="bg-top-center z-index-common space-top animate__animated animate__fadeIn" style={{ padding: "230px 0px 100px 0px" }} id="service-sec">
       <div className="container">
         <div className="row justify-content-lg-between justify-content-center align-items-center">
-          <div className="col-lg-6 col-sm-9 pe-xl-5">
+          <div className="col-lg-12 col-sm-9 pe-xl-5">
             <div className="title-area text-center text-lg-start">
               <div className="shadow-title color2">SERVICES</div>
-              <span className="sub-title" style={{justifyContent:"flex-start"}}>WHAT WE DO</span>
-              <h2 className="sec-title">We Provide Exclusive Service For <span className="text-theme">Your Business</span></h2>
+              <span className="sub-title">WHAT WE DO</span>
+              <h2 className="sec-title text-center">We Provide Exclusive Service For <span className="text-theme">Your Business</span></h2>
             </div>
           </div>
         </div>

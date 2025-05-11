@@ -19,7 +19,7 @@ const Faq = () => {
           </div>
           <div className="row">
             {/* Left Column */}
-            <div className="col-xl-6">
+            <div className="col-xl-6 mb-4">
               <div className="accordion-area accordion" id="faqAccordion">
                 {/* Question 1 */}
                 <div className="accordion-card style2">

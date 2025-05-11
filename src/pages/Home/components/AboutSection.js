@@ -17,7 +17,7 @@ const AboutSection = () => {
           <div className="col-xl-6">
             <div className="title-area mb-35 text-center text-xl-start">
               {/* <div className="shadow-title">ABOUT US</div> */}
-              <span className="sub-title" style={{ justifyContent: "flex-start" }}>About JCS Estimates</span>
+              <span className="sub-title">About JCS Estimates</span>
               <h2 className="sec-title">
                 JCS Estimates - Precision in Every Estimate, Excellence in Every Build
               </h2>

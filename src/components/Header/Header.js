@@ -55,9 +55,9 @@ const Header = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link className="icon-masking" style={{display:"flex", justifyContent:"flex-start", alignItems:"baseline"}} to="/">
+                  <Link className="icon-masking" style={{ display: "flex", justifyContent: "flex-start", alignItems: "baseline" }} to="/">
                     <img src="assets/img/Logo/logo2.png" alt="superiorestimates Logo" style={{ width: '90px', height: '90px' }} />
-                    <img src="assets/img/Logo/heading.png" alt="superiorestimates Logo" style={{ width: '140px', height: '17px', paddingBottom:"0px" }} />
+                    <img src="assets/img/Logo/heading.png" alt="superiorestimates Logo" style={{ width: '140px', height: '17px', paddingBottom: "0px" }} />
 
                   </Link>
                 </div>
@@ -69,7 +69,7 @@ const Header = () => {
                     <li><Link to="/about-us">About Us</Link></li>
                     <li><Link to="/services">Services</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
-                    <li><Link to="/blogs">Blogs</Link></li>
+                    {/* <li><Link to="/blogs">Blogs</Link></li> */}
                     <li><Link to="/our-team">Our Team</Link></li>
                     {/* <li><Link to="/careers">Careers</Link></li> */}
                     <li><Link to="/contact">Contact Us</Link></li>
@@ -100,26 +100,20 @@ const Header = () => {
             <li className={activeItem === '/' ? 'active' : ''}>
               <Link to="/" onClick={() => handleMenuItemClick('/')}>Home</Link>
             </li>
+            <li className={activeItem === '/about-us' ? 'active' : ''}>
+              <Link to="/about-us" onClick={() => handleMenuItemClick('/about-us')}>About Us</Link>
+            </li>
             <li className={activeItem === '/services' ? 'active' : ''}>
               <Link to="/services" onClick={() => handleMenuItemClick('/services')}>Services</Link>
-            </li>
-            <li className={activeItem === '/hireus' ? 'active' : ''}>
-              <Link to="/hireus" onClick={() => handleMenuItemClick('/hireus')}>Hire Us</Link>
             </li>
             <li className={activeItem === '/portfolio' ? 'active' : ''}>
               <Link to="/portfolio" onClick={() => handleMenuItemClick('/portfolio')}>Portfolio</Link>
             </li>
-            <li className={activeItem === '/blogs' ? 'active' : ''}>
-              <Link to="/blogs" onClick={() => handleMenuItemClick('/blogs')}>Blogs</Link>
-            </li>
             <li className={activeItem === '/our-team' ? 'active' : ''}>
               <Link to="/our-team" onClick={() => handleMenuItemClick('/our-team')}>Our Team</Link>
             </li>
-            <li className={activeItem === '/careers' ? 'active' : ''}>
-              <Link to="/careers" onClick={() => handleMenuItemClick('/careers')}>Careers</Link>
-            </li>
             <li className={activeItem === '/trainings' ? 'active' : ''}>
-              <Link to="/trainings" onClick={() => handleMenuItemClick('/trainings')}>Trainings</Link>
+              <Link to="/trainings" onClick={() => handleMenuItemClick('/contact')}>Contact Us</Link>
             </li>
           </ul>
         </div>

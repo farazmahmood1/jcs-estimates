@@ -56,7 +56,7 @@ const WhyUs = () => {
                 <div className="fact-card text-white text-center p-4" style={{ backgroundColor: "#E1EAFF" }}>
                   <FaStar size={30} />
                   <h3 className="fw-bold mt-2">98%</h3>
-                  <p className="mb-0">Customer Satisfaction</p>
+                  <p className="mb-0">Customer Choice</p>
                 </div>
               </div>
               <div className="col-12">
