@@ -112,8 +112,8 @@ const Header = () => {
             <li className={activeItem === '/our-team' ? 'active' : ''}>
               <Link to="/our-team" onClick={() => handleMenuItemClick('/our-team')}>Our Team</Link>
             </li>
-            <li className={activeItem === '/trainings' ? 'active' : ''}>
-              <Link to="/trainings" onClick={() => handleMenuItemClick('/contact')}>Contact Us</Link>
+            <li className={activeItem === '/contact' ? 'active' : ''}>
+              <Link to="/contact" onClick={() => handleMenuItemClick('/contact')}>Contact Us</Link>
             </li>
           </ul>
         </div>

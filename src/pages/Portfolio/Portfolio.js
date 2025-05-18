@@ -27,36 +27,42 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="portfolio-page">
-      <div className="container">
-        <div className="breadcrumb-wrapper">
-          <div className="container">
-            <div className="breadcrumb-content">
-              <h1 className="breadcrumb-title">Portfolio</h1>
-              <ul className="breadcrumb-menu">
-                <li><a href="/">JCS Estimates</a></li>
-                <li>Portfolio</li>
-              </ul>
+    <div className="">
+      <div className="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div className="container">
+          <div className="breadcumb-content">
+            <h1 className="breadcumb-title">Our Portfolio</h1>
+            <ul className="breadcumb-menu">
+              <li><a href="index.html">Home</a></li>
+              <li>Portfolio</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="portfolio-container mb-5">
+
+        <div className="row justify-content-center align-items-center mt-5">
+          <div className="col-lg-4 col-sm-9 pe-xl-5">
+            <div className="title-area text-center">
+              {/* <div className="shadow-title color2">SERVICES</div> */}
+              <span className="sub-title" >OUR RECENT WORK</span>
+              <h2 className="sec-title">We have done a variety of projects <span className="text-theme">for our clients</span></h2>
             </div>
           </div>
         </div>
-      </div>  
 
-
-
-      <div className="portfolio-container">
-        <h1 className="page-title">Explore Our <span className="text-theme">Projects</span></h1>
         <div className="projects-list">
           {projects.map((project, index) => (
             <div className="project-item" key={index} onClick={() => handleReadMore(project)}>
               <div className="project-thumbnail">
                 <img src={project.images[0]} alt={project.name} className="thumbnail-img" />
                 <div className="project-title">
-                  <h3>{project.name}</h3>
+                  <h3>{project.title}</h3>
                 </div>
                 <div className="overlay">
                   <div className="project-details">
-                    <p>{project.excerpt}</p>
+                    <p>{project.description}</p>
                   </div>
                 </div>
               </div>
@@ -70,15 +76,11 @@ const Portfolio = () => {
           <div className="project-popup" onClick={(e) => e.stopPropagation()}>
             <button className="close-button" onClick={handleClosePopup}>&times;</button>
             <div className="project-popup-content">
-              <h2>{selectedProject.name}</h2>
+              <h2>{selectedProject.title}</h2>
               <p>{selectedProject.description}</p>
               <div className="excel-container">
-                <iframe
-                  src={selectedProject.embedUrl}
-                  title={selectedProject.name}
-                  className="excel-iframe"
-                  frameBorder="0"
-                ></iframe>
+                <img src={selectedProject.images[0]} alt={selectedProject.name} className="thumbnail-img" />
+
               </div>
             </div>
           </div>
