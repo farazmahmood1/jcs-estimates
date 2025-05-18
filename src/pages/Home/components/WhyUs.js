@@ -95,7 +95,8 @@ const WhyUs = () => {
                       Let’s Talk About Your Project <span className="text-theme">With jCS</span>
                     </h2>
                   </div>
-                  <a className="th-btn">
+                  <a className="th-btn"  href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
+                        target="_blank">
                     CONTACT US<i className="fa-solid fa-arrow-right ms-2" />
                   </a>
                 </div>

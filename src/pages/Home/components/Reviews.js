@@ -87,7 +87,7 @@ const Reviews = () => {
                             </div>
                             <div className="pb-2 pt-1" style={{ fontWeight: 700, textAlign: "left", color: "#000 !important" }}>Innovative Designs</div>
                             <div className="" style={{ textAlign: "left", color: "#000 !important" }}>
-                                The 3D architectural designs we received from JCS were breathtaking! They perfectly captured our vision and exceeded our expectations.
+                                The material estimations from JCS were breathtaking! They perfectly captured our vision and exceeded our expectations.
                             </div>
                             <div className="d-flex flex-row profile pt-4 mt-auto">
                                 <img

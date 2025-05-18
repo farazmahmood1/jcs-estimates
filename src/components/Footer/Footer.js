@@ -1,5 +1,6 @@
 // Footer.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -16,7 +17,8 @@ const Footer = () => {
                     <div className="th-social">
                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-                      <a href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
+                      <a  href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
+                        target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
                     </div>
                   </div>
                 </div>
@@ -26,13 +28,17 @@ const Footer = () => {
                   <h3 className="widget_title">Quick Links</h3>
                   <div className="menu-all-pages-container">
                     <ul className="menu">
-                      <li><a href="/services">Services</a></li>
-                      <li><a href="/blogs">Blogs</a></li>
+                      <li><Link to="/">Home</Link></li>
+                      <li><Link to="/about-us">About Us</Link></li>
+                      <li><Link to="/services">Services</Link></li>
+                      <li><Link to="/portfolio">Portfolio</Link></li>
+                      <li><Link to="/our-team">Our Team</Link></li>
+                      <li><Link to="/contact">Contact</Link></li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-xl-auto">
+              {/* <div className="col-md-6 col-xl-auto">
                 <div className="widget widget_nav_menu footer-widget">
                   <h3 className="widget_title">SERVICES</h3>
                   <div className="menu-all-pages-container">
@@ -45,30 +51,30 @@ const Footer = () => {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-md-6 col-xl-auto">
                 <div className="widget footer-widget">
                   <h3 className="widget_title">Recent Posts</h3>
                   <div className="recent-post-wrap">
                     <div className="recent-post">
                       <div className="media-img">
-                        <a href="/blogs"><img src="assets/img/DTechKrew/BGs/recent-post-2-2.jpg" alt="Web Development Blog Post" /></a>
+                        <a ><img src="assets/img/DTechKrew/BGs/recent-post-2-2.jpg" alt="Web Development Blog Post" /></a>
                       </div>
                       <div className="media-body">
-                        <h4 className="post-title"><a className="text-inherit" href="/blogs">Estimates - A futuristic Approach</a></h4>
+                        <h4 className="post-title"><a className="text-inherit" >Estimates - A futuristic Approach</a></h4>
                         <div className="recent-post-meta">
-                          <a href="/blogs"><i className="fal fa-calendar-days"></i>09 June, 2024</a>
+                          <a ><i className="fal fa-calendar-days"></i>09 June, 2024</a>
                         </div>
                       </div>
                     </div>
                     <div className="recent-post">
                       <div className="media-img">
-                        <a href="/blogs"><img src="assets/img/DTechKrew/BGs/recent-post-2-1.jpg" alt="App Development Blog Post" /></a>
+                        <a ><img src="assets/img/DTechKrew/BGs/recent-post-2-1.jpg" alt="App Development Blog Post" /></a>
                       </div>
                       <div className="media-body">
-                        <h4 className="post-title"><a className="text-inherit" href="/blogs">Bidding - Approach Like a Pro</a></h4>
+                        <h4 className="post-title"><a className="text-inherit" >Bidding - Approach Like a Pro</a></h4>
                         <div className="recent-post-meta">
-                          <a href="/blogs"><i className="fal fa-calendar-days"></i>10 June, 2024</a>
+                          <a ><i className="fal fa-calendar-days"></i>10 June, 2024</a>
                         </div>
                       </div>
                     </div>
@@ -130,7 +136,8 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <a class="chat-button" href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" rel="nofollow noreferrer" target="_blank">
+        <a class="chat-button"  href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
+                        target="_blank" rel="nofollow noreferrer" >
           <span>Type a message</span>
           <svg viewBox="0 0 32 32">
             <path d="M19.47,31a2,2,0,0,1-1.8-1.09l-4-7.57a1,1,0,0,1,1.77-.93l4,7.57L29,3.06,3,12.49l9.8,5.26,8.32-8.32a1,1,0,0,1,1.42,1.42l-8.85,8.84a1,1,0,0,1-1.17.18L2.09,14.33a2,2,0,0,1,.25-3.72L28.25,1.13a2,2,0,0,1,2.62,2.62L21.39,29.66A2,2,0,0,1,19.61,31Z" />

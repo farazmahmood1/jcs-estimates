@@ -35,7 +35,7 @@ const Header = () => {
             <ul>
               {/* remove the bounce */}
               <li className='d-flex align-items-center'><i className="fa-solid fa-location-dot" style={{ fontSize: "12px" }}></i>Albany, NY 12207, USA</li>
-              <li className='d-flex align-items-center'><i className="fa-brands fa-whatsapp" style={{ fontSize: "15px" }}></i><a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (614) 123 4567</a></li>
+              <li className='d-flex align-items-center'><i className="fa-brands fa-whatsapp" style={{ fontSize: "15px" }}></i><a href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (838) 226 3010</a></li>
               <li className='d-flex align-items-center'><i className="fa-solid fa-envelope" style={{ fontSize: "15px" }}></i><a href="mailto:info@">info@jcsestimates.net</a></li>
               <li className='d-flex align-items-center'><i className="fa-solid fa-phone" style={{ fontSize: "12px" }}></i><a href="tel:380 268 9436" target="_blank" rel="noopener noreferrer">(380) 123 4567</a></li>
             </ul>

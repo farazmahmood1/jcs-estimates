@@ -41,7 +41,7 @@ const ContactPage = () => {
                                 <div className="contact-info">
                                     <div className="contact-info_icon"><i className="fas fa-envelope" /></div>
                                     <div className="media-body">
-                                        <h4 className="box-title">Send An Email</h4><span className="contact-info_text"><a href="mailto:info.jscestimates.com">info.jscestimates.com</a> <a href="mailto:hr@">hr@jscestimates.com</a></span>
+                                        <h4 className="box-title">Send An Email</h4><span className="contact-info_text"><a href="mailto:info.jscestimates.com">info@jscestimates.com</a> <a href="mailto:hr@">hr@jscestimates.com</a></span>
                                     </div>
                                 </div>
                             </div>

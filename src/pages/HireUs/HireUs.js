@@ -34,7 +34,7 @@ const HireUs = () => {
                   </div>
                   <div className="year-counter">
                     <h3 className="year-counter_number">
-                      <span className="counter-number">25</span>+
+                      <span className="counter-number">9</span>+
                     </h3>
                     <p className="year-counter_text">Years of Experience</p>
                   </div>
@@ -82,7 +82,8 @@ const HireUs = () => {
                     </div>
                   </div>
                   <div className="btn-group">
-                    <a href="about.html" className="th-btn">
+                    <a  href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
+                        target="_blank" className="th-btn">
                       DISCOVER MORE<i className="fa-solid fa-arrow-right ms-2" />
                     </a>
                     <div className="call-btn">
@@ -91,8 +92,8 @@ const HireUs = () => {
                       </div>
                       <div className="media-body">
                         <span className="btn-text">Call Us On:</span>{" "}
-                        <a href="tel:+16142706554" className="btn-title">
-                          +1 (614) 270-6554
+                        <a href="tel:+" className="btn-title">
+                          +1 (123) 123-4567
                         </a>
                       </div>
                     </div>
@@ -123,7 +124,7 @@ const HireUs = () => {
                     WHY CHOOSE US
                   </span>
                   <h2 className="sec-title">
-                    Precision and Excellence in <span className="text-theme">Architectural Design & Estimation</span>
+                    Excellence in Material Take Off <span className="text-theme">and Construction Cost Estimation</span>
                   </h2>
                 </div>
                 <p className="mt-n2 mb-30">

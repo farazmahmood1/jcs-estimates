@@ -88,7 +88,7 @@ const HeroSection = () => {
                     </p>
                     <div className="btn-group">
                       <a
-                        href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0"
+                        href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="th-btn"
