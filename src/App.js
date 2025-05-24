@@ -14,8 +14,6 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'; // Import the Sc
 import Contact from './pages/Contact/ContactPage' 
 
 
-
-
 function App() {
   return (
     <Router>
