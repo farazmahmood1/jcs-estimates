@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="widget footer-widget">
                   <h3 className="widget_title">About Company</h3>
                   <div className="th-widget-about">
-                    <p className="about-text">Jcs Estimates: Providing exceptional solutions to propel your projects forward.</p>
+                    <p className="about-text">JCS Estimation LLC: Providing exceptional solutions to propel your projects forward.</p>
                     <div className="th-social">
                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
                       <a href="" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>

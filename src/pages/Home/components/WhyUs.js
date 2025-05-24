@@ -26,7 +26,7 @@ const WhyUs = () => {
           <div className="col-md-6">
             <h2 className="fw-bold">Your Vision, Our Expertise</h2>
             <p className="text-muted">
-              At jCS, we transform your ideas into reality with meticulous planning and execution. From detailed cost estimations to stunning architectural designs, we ensure every step of your project is handled with care and precision.
+              At JCS Estimation, we transform your ideas into reality with meticulous planning and execution. From detailed cost estimations to stunning architectural designs, we ensure every step of your project is handled with care and precision.
             </p>
             <p className="text-muted">
               Our team combines cutting-edge technology with years of industry experience to deliver results that exceed expectations. Whether you're building a home or managing a large-scale project, we’re here to support you every step of the way.
@@ -92,7 +92,7 @@ const WhyUs = () => {
                       LET’S CONSULT WITH US
                     </span>
                     <h2 className="sec-title">
-                      Let’s Talk About Your Project <span className="text-theme">With jCS</span>
+                      Let’s Talk About Your Project <span className="text-theme">With JCS Estimation</span>
                     </h2>
                   </div>
                   <a className="th-btn"  href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"

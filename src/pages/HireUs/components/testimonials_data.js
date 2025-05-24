@@ -34,7 +34,7 @@ const testimonials = [
     service: 'Request for Quotation (RFQ)' 
   },
   { 
-    text: 'The 2D and 3D designs from JCS Estimates brought our vision to life. Their attention to both structural and aesthetic details is remarkable, and their designs greatly aided our construction planning.', 
+    text: 'Their attention to both structural and aesthetic details is remarkable, and their designs greatly aided our construction planning.', 
     rating: 4.9, 
     name: 'Karen Rodriguez', 
     company: 'ArchVision', 

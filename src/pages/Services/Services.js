@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
-import { servicesData } from './components/servicesData';
 import './components/styles.css';
 import Reviews from '../Home/components/Reviews';
 
@@ -47,7 +46,7 @@ const Services = () => {
     { icon: "assets/img/icon/tower.png", title: "Electrical", description: "Full electrical system estimates including wiring, panels, lighting, and power distribution." },
     { icon: "assets/img/icon/construction.png", title: "Earthwork", description: "Comprehensive earthwork estimation services to support site preparation and foundational planning." },
     { icon: "assets/img/icon/park.png", title: "Exterior Improvements", description: "Estimates for driveways, sidewalks, retaining walls, fencing, and outdoor hardscaping." },
-    { icon: "assets/img/icon/utilities.png", title: "Utilities", description: "Utility infrastructure estimates including water lines, sewer connections, gas lines, and electrical services." }
+    { icon: "assets/img/icon/bill.png", title: "Utilities", description: "Utility infrastructure estimates including water lines, sewer connections, gas lines, and electrical services." }
   ];
 
   return (

@@ -55,10 +55,8 @@ const Header = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
-                  <Link className="icon-masking" style={{ display: "flex", justifyContent: "flex-start", alignItems: "baseline" }} to="/">
-                    <img src="assets/img/Logo/logo2.png" alt="superiorestimates Logo" style={{ width: '90px', height: '90px' }} />
-                    <img src="assets/img/Logo/heading.png" alt="superiorestimates Logo" style={{ width: '140px', height: '17px', paddingBottom: "0px" }} />
-
+                  <Link className="icon-masking"  to="/">
+                    <img src="assets/img/Logo/Logo_main.png" alt="superiorestimates Logo" style={{  height: '90px' }} />
                   </Link>
                 </div>
               </div>

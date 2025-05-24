@@ -56,7 +56,8 @@ const HireUs = () => {
                     </h2>
                   </div>
                   <p className="mt-n2 mb-25">
-                    At JCS, we specialize in delivering accurate estimates, innovative architectural designs, and comprehensive project solutions. With over 25 years of experience, our team combines expertise, technology, and a client-centric approach to ensure success at every stage of your project.
+                    At JCS Estimation, we provide precise and reliable construction cost estimating services across all major trades. Our team of experienced estimators supports contractors, architects, and developers with detailed takeoffs, helping streamline bidding and planning processes. We are committed to accuracy, efficiency, and delivering estimates that align with your project goals and budget expectations.
+
                   </p>
                   <div className="about-feature-wrap">
                     {/* Feature 1 */}
@@ -82,8 +83,8 @@ const HireUs = () => {
                     </div>
                   </div>
                   <div className="btn-group">
-                    <a  href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
-                        target="_blank" className="th-btn">
+                    <a href="https://api.whatsapp.com/send/?phone=18382263010&text&type=phone_number&app_absent=0"
+                      target="_blank" className="th-btn">
                       DISCOVER MORE<i className="fa-solid fa-arrow-right ms-2" />
                     </a>
                     <div className="call-btn">
@@ -128,7 +129,7 @@ const HireUs = () => {
                   </h2>
                 </div>
                 <p className="mt-n2 mb-30">
-                  At JCS, we specialize in delivering accurate cost estimations, innovative architectural designs, and comprehensive project solutions. Our team combines cutting-edge technology with years of industry experience to ensure precision, efficiency, and client satisfaction at every stage of your project.
+                  Choose JCS Estimation for accurate, fast, and cost-effective construction takeoffs. Our team brings industry expertise, attention to detail, and advanced tools to deliver estimates you can trust. We help you save time, reduce bid risks, and improve project profitability. With a focus on quality and client satisfaction, we’re your reliable partner for every stage of construction estimating.
                 </p>
                 <div className="two-column">
                   {/* Checklist 1 */}
@@ -150,7 +151,7 @@ const HireUs = () => {
                   <div className="checklist style2">
                     <ul>
                       <li>
-                        <i className="far fa-solid fa-check" /> Stunning 2D & 3D Architectural Designs
+                        <i className="far fa-solid fa-check" /> Expert in Special Construction
                       </li>
                       <li>
                         <i className="far fa-solid fa-check" /> Expert Consultation Services

@@ -25,17 +25,21 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
-      <section className="space-top">
+      <section className="space-top" style={{ marginBottom: "150px" }}>
         <div className="container">
           <div className="row gy-40 align-items-center">
             <div className="col-xl-5">
-              <div className="team-featured-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
+              <div className="team-featured-img"><img src="\assets\img\DTechKrew\Team\ceo.jpg" alt="Team" /></div>
             </div>
             <div className="col-xl-7">
               <div className="team-featured">
-                <h2 className="team-title">John Doe, Founder & CEO</h2>
-                <p className="team-desig">CEO, of JCS</p>
-                <p className="team-bio">Welcome to jcs Estimates, your premier destination for expert cost estimation services. I'm delighted to introduce you to our team of seasoned professionals dedicated to delivering accurate, timely, and data-driven solutions. Leveraging cutting-edge technology and industry expertise, we optimize project budgets, mitigate risks, and drive success. Our commitment to excellence and client satisfaction drives everything we do. Explore our services and let's get started on your next project.</p>
+                <h2 className="team-title">Ahmed Pervaiz</h2>
+                <p className="team-desig">Founder & CEO</p>
+                <p className="team-bio">At JCS Estimation, we are proud to offer trusted and accurate construction estimation services across the United States for over 9 years. As a team of professionals led by industry expertise, our mission has always been to help clients build with confidence by providing detailed and cost-effective estimation solutions.
+
+                  <br /><br />As a Civil Engineer by profession, I understand the critical importance of precision in every project. With hands-on experience in the field and a deep understanding of construction dynamics, I’ve built this company to bridge the gap between project vision and practical planning. Over the years, we’ve had the privilege of working with many well-known contractors, architects, and construction firms nationwide.
+                  <br /><br />From residential and commercial to industrial projects, our team is dedicated to delivering top-tier services tailored to your unique needs. Thank you for considering us as your trusted estimation partner — we look forward to helping you bring your next project to life.
+                </p>
                 <div className="team-contact-wrap">
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-phone" /></div>
@@ -46,7 +50,7 @@ const OurTeam = () => {
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-envelope" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@.com">info@jcsestimate.com</a>
+                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@.com">ahmed@jcsestimate.com</a>
                     </div>
                   </div>
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
@@ -55,111 +59,13 @@ const OurTeam = () => {
                       <h6 className="team-contact_label">Timings</h6><span className="team-contact_link">10:00AM - 4:00PM</span>
                     </div>
                   </div>
-                </div><a href="about.html" className="th-btn">MAKE AN APPOINTMENT<i className="fa-solid fa-arrow-right ms-2" /></a>
+                </div><a className="th-btn">MAKE AN APPOINTMENT<i className="fa-solid fa-arrow-right ms-2" /></a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="space">
-        <div className="container">
-          <div className="title-area text-center"><span className="sub-title">
-            <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="\assets\img\DTechKrew\Team\mrkhd.jpg" /></div>ALL MEMBERS
-          </span>
-            <h2 className="sec-title">See Our Skilled Expert <span className="text-theme">Team</span></h2>
-          </div>
-          <div className="row gy-40">
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p1" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">John Doe Latinez</a></h3><span className="team-desig">Founder &amp; CEO</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p2" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Alex Furnandes</a></h3><span className="team-desig">Project Manager</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p3" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Mary Crispy</a></h3><span className="team-desig">Cheif Expert</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p4" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Henry Joshep</a></h3><span className="team-desig">Product Manager</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p5" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Sanjida Carlose</a></h3><span className="team-desig">IT Consultant</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p6" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Marian Widjya</a></h3><span className="team-desig">Head Manager</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p7" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Peter Parker</a></h3><span className="team-desig">Web Developer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="th-team team-card">
-                <div className="team-img"><img src="\assets\img\DTechKrew\Team\mrkhd.jpg" alt="Team" /></div>
-                <div className="team-content">
-                  <div className="box-particle" id="team-p8" />
-                  <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-                  </div>
-                  <h3 className="box-title"><a href="team-details.html">Grayson Gabriel</a></h3><span className="team-desig">UI/UX Designer</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </div>
 
   );

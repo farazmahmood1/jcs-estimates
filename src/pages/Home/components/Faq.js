@@ -43,7 +43,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        JCS specializes in architectural designing (2D & 3D), quantity takeoffs, cost estimations, material lists, bid forms, and request for quotations (RFQ). Our team ensures precision, efficiency, and innovation in every project.
+                        JCS specializes in special construction, quantity takeoffs, cost estimations, material lists, bid forms, and request for quotations (RFQ). Our team ensures precision, efficiency, and innovation in every project.
                       </p>
                     </div>
                   </div>
@@ -149,7 +149,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-5"
                     >
-                      What makes your architectural designs unique?
+                      What is included in Special Construction?
                     </button>
                   </div>
                   <div
@@ -160,7 +160,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Our designs combine functionality, aesthetics, and structural integrity. Using cutting-edge 2D & 3D modeling tools, we create photorealistic visualizations and interactive walkthroughs to bring your vision to life.
+                        Estimates for specialized structures like clean rooms, vaults, or blast-resistant buildings.
                       </p>
                     </div>
                   </div>

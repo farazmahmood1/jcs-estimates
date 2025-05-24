@@ -30,7 +30,7 @@ const CounterSection = () => {
     if (animate) {
       const interval = setInterval(() => {
         setCounters((prev) => {
-          const projects = prev.projects < 1100 ? prev.projects + 100 : 1150;
+          const projects = prev.projects < 900 ? prev.projects + 100 : 1000;
           const years = prev.years < 9 ? prev.years + 1 : 9;
           const clients = prev.clients < 500 ? prev.clients + 50 : 500;
           const efficiency = prev.efficiency < 98 ? prev.efficiency + 10 : 98;

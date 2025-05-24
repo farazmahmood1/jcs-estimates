@@ -131,7 +131,7 @@ const HeroSection = () => {
                       Crafting Spaces That Inspire
                     </h1>
                     <p className="hero-text">
-                      Our 2D & 3D architectural designs combine functionality with aesthetics to bring your vision to life.
+                      Creating asthetics interior design to make your living standards up to the mark
                     </p>
                     <div className="btn-group">
                       <a

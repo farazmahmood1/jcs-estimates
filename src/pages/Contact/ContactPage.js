@@ -74,7 +74,7 @@ const ContactPage = () => {
                                         </select> <i className="fal fa-chevron-down" /></div>
                                         <div className="form-group col-md-6"><input type="tel" className="form-control" name="number" id="number" placeholder="Phone Number" /> <i className="fal fa-phone" /></div>
                                         <div className="form-group col-12"><textarea name="message" id="message" cols={30} rows={3} className="form-control" placeholder="Your Message" defaultValue={""} /> <i className="fal fa-comment" /></div>
-                                        <div className="form-btn text-xl-start text-center col-12"><button className="th-btn">Send Message<i className="fa-regular fa-arrow-right ms-2" /></button></div>
+                                        <div className="form-btn text-xl-start text-center col-12"><button className="th-btn">Send Message<i className="fa-solid fa-arrow-right ms-2" /></button></div>
                                     </div>
                                     <p className="form-messages mb-0 mt-3" />
                                 </form>

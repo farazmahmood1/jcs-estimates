@@ -118,7 +118,7 @@ const Portfolio = () => {
             <button className="close-button" onClick={handleClosePopup}>&times;</button>
             <div className="project-popup-content">
               <h2>{selectedProject.title}</h2>
-              <p>{selectedProject.description}</p>
+              <p>{selectedProject.details}</p>
 
               <OwlCarousel className="owl-theme"
           ref={carouselRef}
