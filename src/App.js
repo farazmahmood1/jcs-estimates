@@ -13,7 +13,6 @@ import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'; // Import the ScrollToTop for homepage
 import Contact from './pages/Contact/ContactPage' 
 
-
 function App() {
   return (
     <Router>
